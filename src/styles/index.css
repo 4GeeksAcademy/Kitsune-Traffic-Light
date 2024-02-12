@@ -10,3 +10,43 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.trafficLight{
+    background-color: rgb(0, 0, 0);
+    width: 30px;
+    height: 125px;
+    margin-left: 550px;
+    padding-inline-start: 14px;
+    
+}
+
+.container {
+    background-color: black;
+    width: 124px;
+    height: 325px;
+    padding-top: 12px;
+    margin-left: -60px;
+    border-radius: 15px;
+}
+
+.redLight {
+    background-color: red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.yellowLight {
+    background-color: yellow;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+} 
+.greenLight {
+    background-color: green;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.glow {
+    border-radius: 50%;
+    box-shadow: 0px 0px 49px 4px #fbfbff;
+}
