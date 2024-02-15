@@ -1,20 +1,25 @@
  
-import React from 'react'
-import { useState } from 'react';
+import React, { useEffect, useState } from 'react'
+ 
 
-const purple = () => {
-    const [color, extraColor] = useState(false);
+const Purple = () => {
+    const [color, setColor] = useState(false);
     
+    useEffect (()=>{
+      if (color === true) {
+        alert("¡Desbloqueaste un color nuevo!")
+      }
+    })
     
     return (
     <div className='lightButton'>
-          <button type="button" className="purpleExtra" onClick={color == false ? () => extraColor(true) : () => extraColor(false)} >
-					{color == false ? "Secret Color" : <div className='purpleLight'></div>}
-          {color == true ? `${alert("¡Desbloqueaste un color nuevo!")}`: " "}</button>
+          <button type="button" className="purpleExtra" onClick={color == false ? () => setColor(true) : () => setColor(false)} >
+					{color === false ? "Secret Color" : <div className='purpleLight'> </div>}
+          </button>
     </div>
   )
 }
 
-export default purple
+export default Purple
 
  
