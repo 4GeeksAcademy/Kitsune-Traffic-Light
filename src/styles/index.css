@@ -50,3 +50,35 @@
     border-radius: 50%;
     box-shadow: 0px 0px 49px 4px #fbfbff;
 }
+.purpleExtra{
+    background-color: black;
+    width: 124px;
+    height: 125px;
+    padding-top: 12px;
+    margin-left: -60px;
+    border-radius: 15px;
+    color: white;
+}
+.purpleLight {
+    background-color: purple;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+    margin-bottom: 7px;
+
+    
+   
+}
+
+.remix-button {
+    margin-left: -35px;
+    padding: 10px;
+}
+
+.newLight{
+    width: 100px;
+    margin-left: -48px;
+    padding: 10px;
+}
+
